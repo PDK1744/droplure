@@ -31,6 +31,11 @@ export function AuthProvider({ children }) {
   // Reset Password, NEED TO ADD RESET PASSWORD PAGE AND LOGIC
 
   // Update Password
+
+  //get user
+  function getUser() {
+    return supabase.auth.getUser();
+  }
   const updateUserPassword = async (new_password) => {
     {
       password: new_password;
