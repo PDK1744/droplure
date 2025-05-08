@@ -3,7 +3,7 @@ import Head from "./head";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { AuthProvider } from "@/context/AuthContext";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -20,13 +20,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head />
       <body className={` ${inter.className} antialiased`}>
-        <AuthProvider>
+        
           <Header />
-          <main className="flex-1 min-h-screen bg-gray-50 text-gray-900">
+          <main className="flex flex-col items-center min-h-screen bg-gray-50 text-gray-900">
             {children}
           </main>
           <Footer />
-        </AuthProvider>
+        
       </body>
     </html>
   );

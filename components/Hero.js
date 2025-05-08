@@ -12,14 +12,14 @@ export default function Hero() {
       </p>
       <div className="flex justify-center space-x-4">
         <Link
-          href="/upload"
-          className="px-6 py-3 bg-blue-300 text-white rounded-xl hover:bg-amber-700"
+          href="/sign-up"
+          className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-amber-700"
         >
-          Upload
+          Sign Up
         </Link>
         <Link
           href="/#pricing"
-          className="px-6 py-3 border border-blue-600 text-blue-600 rounded-xl hover:bg-amber-700 hover:text-white"
+          className="px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-amber-700 hover:text-white"
         >
           View Pricing
         </Link>

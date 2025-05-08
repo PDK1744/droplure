@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DropLure
 
-## Getting Started
+DropLure is a simple and secure file-sharing web application that allows users to upload documents and generate download links that can be copied or emailed to others. It was created to make document sharing fast, easy, and user-friendly — with a focus on privacy and accessibility.
 
-First, run the development server:
+## 🚀 Why I Built It
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I built DropLure to streamline the process of sharing documents between devices or users without the friction of traditional file transfer services. Whether you're working remotely, collaborating with a client, or transferring files between personal devices, DropLure provides a clean, efficient, and privacy-first solution.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js** – Full-stack React framework for building a responsive and scalable web app.
+- **Tailwind CSS** – Utility-first CSS framework for fast and custom styling.
+- **Supabase** – Backend-as-a-Service for handling user authentication, database, and storage.
+- **Vercel** – For seamless deployment and hosting of the web app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Live Demo - Coming Soon!
 
-## Learn More
+[Visit DropLure](https://your-drop-lure-app.vercel.app) 
 
-To learn more about Next.js, take a look at the following resources:
+## 📩 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Upload documents securely
+- Generate and copy secure download links
+- Send download links via email (coming soon)
+- Clean, mobile-friendly UI
+- Free and Pro plans (planned for future release)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
